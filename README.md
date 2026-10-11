@@ -42,6 +42,21 @@ luu-do/                      Flowcharts and editable Draw.io source
 platformio.ini               PlatformIO build environments
 ```
 
+## Flowcharts
+
+The repository includes detailed implementation flowcharts with Vietnamese annotations. They document the main firmware paths while intentionally omitting a few test-only Serial branches and periodic summary code.
+
+### Sensor Failover Decision
+
+![Sensor handleResult failover flowchart](luu-do/Hinh2.3_sensor_handleResult.png)
+
+Additional flowcharts:
+
+- Sensor: [`loop()`](luu-do/Hinh2.1_sensor_loop.png) · [`sendPacket()`](luu-do/Hinh2.2_sensor_sendPacket.png)
+- Gateway: [`loop()`](luu-do/Hinh3.1_gateway_loop.png) · [`onWrite()`](luu-do/Hinh3.2_gateway_onWrite.png) · [`handlePacket()`](luu-do/Hinh3.3_gateway_handlePacket.png)
+- Relay: [`loop()`](luu-do/Hinh4.1_relay_loop.png) · [`onWrite()`](luu-do/Hinh4.2_relay_onWrite.png) · [`forwardPacket()`](luu-do/Hinh4.3_relay_forwardPacket.png)
+- Editable source: [`luu-do-sensor-gateway-relay.drawio`](luu-do/luu-do-sensor-gateway-relay.drawio)
+
 ## Build
 
 Requirements:
