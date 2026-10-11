@@ -1,0 +1,32 @@
+.pio/
+.vscode/
+.claude/
+tmp/
+
+# Local dependencies and generated outputs
+web-failover/node_modules/
+web-failover/dist/
+*.exe
+
+# Third-party/reference material not part of this portfolio repository
+scrcpy-master/
+backup_original/
+
+# Personal study notes, scratch files, and generated learning tools
+CLAUDE.md
+HOC_TAP.md
+learnOOP.cpp
+tempCodeRunnerFile.cpp
+so-tay-do-an-2.html
+mo-phong-he-thong.html
+mo-phong-tap-sensor.html
+tools/
+web-failover/
+src/tap_*.cpp
+src/ble_server_node.cpp
+src/ble_client_gateway.cpp
+src/i2c_scanner.cpp
+bao-cao-chi-tiet-do-an-2-esp32-ble-gatt.md
+include/README
+lib/
+test/
